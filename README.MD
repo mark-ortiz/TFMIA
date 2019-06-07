@@ -12,3 +12,11 @@ Para lo anterior, he pensado guiarme con la metodología CRISP-DM que requiere l
 * 4. Modelado
 * 5. Evaluación
 * 6. Despliegue-Implementación del modelo en producción
+
+# CONTROL DE CAMBIOS
+
+Existen por el momento 2 archivos (me falta subir 1)
+
+TFMv_0 - Este archivo contiene el esfuerzo inicial de comprensión del problema y de limpieza de datos, sin embargo está erróneo debido a una falta de comprensión del problema, se hizo una limpieza inicial "importante", pero solo se extrajeron de cada archivo los datos del muón que son las salidas, faltó el tratamiento en general de los hits y de la data bbfi y afit.
+
+TFMv_0.1 - En este archivo se pretende corregir los errores anteriores y hacer una limpieza correcta, ya que se cuenta con nueva información proporcinada así como una mayor comprensión del problema. (De todos modos debo leer y comprender mejor el rol de bbfit y afit
