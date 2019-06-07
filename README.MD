@@ -3,7 +3,7 @@
 Este repositorio lo he creado para llevar el seguimiento de lo realizado con respecto a las tareas que se requieren llevar a cabo para lograr el objetivo del TFM.
 
 El título de mi TFM es:
-"Aprendizaje profundo aplicado a física de partículas: estimación de trazas de partículas detectadas por el telescopio de neutrinos en el fondo marino."
+<B>"Aprendizaje profundo aplicado a física de partículas: estimación de trazas de partículas detectadas por el telescopio de neutrinos en el fondo marino."</B>
 
 Para lo anterior, he pensado guiarme con la metodología CRISP-DM que requiere los siguientes pasos:
 * 1. Entendimiento del Negocio (o del Problema en este caso)
