@@ -31,4 +31,5 @@ Algo muy rescatable, es el tratamiento que pude hacer de los 2554 archivos propo
 Importante comentar que como collaboratory se me ha colgado varias veces debido a falta de memoria en otros proyectos, decidí adquirir hace poco (20 días aprox), una tarjeta de vídeo NVIDA RTX 2070 (que tuve que cambiar con el proveedor la primerz vez porque resultó que estaba dañanda); el objetivo es ver que sea de ayuda con el tema del entrenamiento para el TFM. Adicional ya puede configurar el ambiente Anaconda para que haga uso de esta, lo hice generando un ambiente virtual para que use tensorflow. Veremos si puede apoyar para este trabajo del TFM (espero que sí).
 
 <B>25/Jun</B>
+
 Una vez terminadas por fin todas las materias y el último examen del Master, me enfocaré de lleno al TFM.
