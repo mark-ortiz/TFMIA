@@ -33,3 +33,4 @@ Importante comentar que como collaboratory se me ha colgado varias veces debido 
 <B>25/Jun</B>
 
 Una vez terminadas por fin todas las materias y el último examen del Master, me enfocaré de lleno al TFM.
+Lo primero que haré es el tratamiento de los hits que según lo que entendí son la data que necesito para el modelado.
