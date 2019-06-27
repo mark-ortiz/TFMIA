@@ -34,3 +34,9 @@ Importante comentar que como collaboratory se me ha colgado varias veces debido 
 
 Una vez terminadas por fin todas las materias y el último examen del Master, me enfocaré de lleno al TFM.
 Lo primero que haré es el tratamiento de los hits que según lo que entendí son la data que necesito para el modelado.
+
+<B>26/Jun</B>
+
+He estado trabajando en el tratamiento de un solo archivo para obtener la data de aafit y bbfit, adicionalmente también he estado trabajando en obtener la data de los best hits y los raw hits.
+Ha sido un poco arduo.
+La idea que se me ocurrio para poder localizar la información fué generar indices tipo punteros, y al parecer ha funcionado.
