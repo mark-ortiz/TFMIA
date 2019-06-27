@@ -40,3 +40,5 @@ Lo primero que haré es el tratamiento de los hits que según lo que entendí so
 He estado trabajando en el tratamiento de un solo archivo para obtener la data de aafit y bbfit, adicionalmente también he estado trabajando en obtener la data de los best hits y los raw hits.
 Ha sido un poco arduo.
 La idea que se me ocurrio para poder localizar la información fué generar indices tipo punteros, y al parecer ha funcionado.
+Subí el código del siguiente intento que es el archivo TFMv0.1
+También subí el código del archivo en progreso que es el archivo TFMv0.2
