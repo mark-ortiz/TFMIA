@@ -65,3 +65,5 @@ Hoy tratando de hacer que el algoritmo que genera la data funcione para todos lo
 Por ejemplo investigando en el archivo orignal TXT con nombre MC_076810_numu_CC_a_reco.i3.gz.txt, en el evento 773, no existe la linea con la data relativa a aafit.
 
 Necesito pensar una forma de resolver lo anterior, ya que la idea era recorrer todos los archivos y obtener la data... pero si no existe como tal la línea de aafit en absoluto en algunos archivos, pues el algoritmo falla y da error de índices. Es un problema como siempre de data incompleta.!!!
+
+Una posible idea que se me ocurre, es volver a analizar todos los archivos CSV que se generen, mediante un algoritmo que revise cada uno y en caso de que haga falta una data lo descarte... la idea seria generar un nuevo directorio que contenga solo archivos con data completa... pero necesito tener ya todos los archivos CSV... y para eso falta al menos 1 día más.
