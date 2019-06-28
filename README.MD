@@ -60,6 +60,8 @@ He calculado que la obtención de los archivos CSV, tardará alrededor de 5 día
 
 <B>28/Jun</B>
 
-Hoy tratando de hacer que el algoritmo que genera la data funcione para todos los archivos, me he encontrado que algunos archivos, <B>no contienen data de aafit!!!!.</B>
+Hoy tratando de hacer que el algoritmo que genera la data funcione para todos los archivos, me he encontrado que algunos archivos, en algunos eventos, <B>no contienen data de aafit!!!!.</B>
 
-Necesito pensar una forma de resolver lo anterior, ya que la idea era recorrer todos los archivos y obtener la data... pero si no existe como tal la línea de aafit en absoluto en algunos archivos, pues el algoritmo falla y da error de índices.
+Por ejemplo investigando en el archivo orignal TXT con nombre MC_076810_numu_CC_a_reco.i3.gz.txt, en el evento 773, no existe la linea con la data relativa a aafit.
+
+Necesito pensar una forma de resolver lo anterior, ya que la idea era recorrer todos los archivos y obtener la data... pero si no existe como tal la línea de aafit en absoluto en algunos archivos, pues el algoritmo falla y da error de índices. Es un problema como siempre de data incompleta.!!!
