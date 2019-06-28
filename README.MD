@@ -46,3 +46,16 @@ La idea que se me ocurrio para poder localizar la información fué generar indi
 Subí el código del siguiente intento que es el archivo TFMv0.1
 
 También subí el código del archivo en progreso que es el archivo TFMv0.2
+
+<B>27/Jun</B>
+Hice algunos progresos en la generación de los archivos CSV, estos archivos pretendo que sean data más limpia para comenzar a extraer las entradas requeridas (runID, frameID, trigger_counter, interactionID, aafit_azimut, aafit_zenit, aafit_lambda, aafit_beta, bbfit_azimut, bbfit_zenit, bbfit_quality)
+
+Logré realizar un algoritmo para obtener un dataframe con toda la data requerida a partir del archivo CSV.
+
+Unicamente lo he probado para el primer archivo.
+
+He calculado que la obtención de los archivos CSV, tardará alrededor de 5 días con una sola computadora... por lo que puse a trabajar también a la PC de mi trabajo y espero terminar en máximo 3 días y ya contar con los 2542 archivos CSV ya mas limpios para su tratamiento.
+
+
+<B>28/Jun</B>
+Tratando de auto
