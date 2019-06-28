@@ -48,6 +48,7 @@ Subí el código del siguiente intento que es el archivo TFMv0.1
 También subí el código del archivo en progreso que es el archivo TFMv0.2
 
 <B>27/Jun</B>
+
 Hice algunos progresos en la generación de los archivos CSV, estos archivos pretendo que sean data más limpia para comenzar a extraer las entradas requeridas (runID, frameID, trigger_counter, interactionID, aafit_azimut, aafit_zenit, aafit_lambda, aafit_beta, bbfit_azimut, bbfit_zenit, bbfit_quality)
 
 Logré realizar un algoritmo para obtener un dataframe con toda la data requerida a partir del archivo CSV.
@@ -58,4 +59,7 @@ He calculado que la obtención de los archivos CSV, tardará alrededor de 5 día
 
 
 <B>28/Jun</B>
-Tratando de auto
+
+Hoy tratando de hacer que el algoritmo que genera la data funcione para todos los archivos, me he encontrado que algunos archivos, <B>no contienen data de aafit!!!!.</B>
+
+Necesito pensar una forma de resolver lo anterior, ya que la idea era recorrer todos los archivos y obtener la data... pero si no existe como tal la línea de aafit en absoluto en algunos archivos, pues el algoritmo falla y da error de índices.
