@@ -69,6 +69,7 @@ Necesito pensar una forma de resolver lo anterior, ya que la idea era recorrer t
 Una posible idea que se me ocurre, es volver a analizar todos los archivos CSV que se generen, mediante un algoritmo que revise cada uno y en caso de que haga falta una data lo descarte... la idea seria generar un nuevo directorio que contenga solo archivos con data completa... pero necesito tener ya todos los archivos CSV... y para eso falta al menos 1 día más.
 
 <B>29 Jun</B>
+
 Después de probar muchas opciones y desechar algunas ideas locas (y tontas) como menciono en el Notebook que hice expreso para esto (GENERA_DF_AAFIT_BBFIT.ipynb), finalmente pude generar un algoritmo para obtener la data de bbfit, aafit, del muon y demas relevantes y poner toda la data en un solo dataframe para el tratamiento posterior que es el modelado.
 
 Me falta todavía hacer lo mismo y obtener la data para los hits, pero como dicen... un problema a la vez. Espero que la experiencia ganada me ayude, ya que los hits requieren una comparación que no he pensado a profundidad y creo que me puede dar un poco de problema...
@@ -78,6 +79,7 @@ Otra cosa que hice fué poner a trabajar en paralelo en la generación de archiv
 Ahora ya tengo un conjunto de archivos CSV, que pueden ser tratados más fácilmente con pandas de python, solo para la data de aafit y bbfit, como dije todavía falta generar el algoritmo para los hits y por supuesto la data.
 
 <B>30 Jun</B>
+
 Este dia Domingo he verificado que no se haya colgado nada de la extracción de CSVs, ya que en México es común la falta de energía eléctrica y pues eso da al traste con el trabajo, sin embargo todo bien, los 3 equipos terminaron satisfactoriamente y tengo todos los archivos que se requieren en CSV para hacer la extracción de data.
 
 Hoy pondré a trabajar el algoritmo para generar la data de aafit, bbfit y el muon. Después de algunos pruebas, estimo que esto tardará alrededor de 3 o 4 horas máximo y con un solo equipo PC.
