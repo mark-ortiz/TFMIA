@@ -78,6 +78,8 @@ Otra cosa que hice fué poner a trabajar en paralelo en la generación de archiv
 
 Ahora ya tengo un conjunto de archivos CSV, que pueden ser tratados más fácilmente con pandas de python, solo para la data de aafit y bbfit, como dije todavía falta generar el algoritmo para los hits y por supuesto la data.
 
+Estoy también trabajando la sig. versión del Notebook TFM_v0.3, en el cual he hecho algo de limpieza de los anteriores y ya he eliminado algunas cosas que no servían o estaban de más y repetidas, y pondré el algoritmo completo de generación de data de aafit,bbfit y el muon.
+
 <B>30 Jun</B>
 
 Este dia Domingo he verificado que no se haya colgado nada de la extracción de CSVs, ya que en México es común la falta de energía eléctrica y pues eso da al traste con el trabajo, sin embargo todo bien, los 3 equipos terminaron satisfactoriamente y tengo todos los archivos que se requieren en CSV para hacer la extracción de data.
