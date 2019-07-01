@@ -85,3 +85,5 @@ Estoy también trabajando la sig. versión del Notebook TFM_v0.3, en el cual he 
 Este dia Domingo he verificado que no se haya colgado nada de la extracción de CSVs, ya que en México es común la falta de energía eléctrica y pues eso da al traste con el trabajo, sin embargo todo bien, los 3 equipos terminaron satisfactoriamente y tengo todos los archivos que se requieren en CSV para hacer la extracción de data.
 
 Hoy pondré a trabajar el algoritmo para generar la data de aafit, bbfit y el muon. Después de algunos pruebas, estimo que esto tardará alrededor de 3 o 4 horas máximo y con un solo equipo PC.
+
+Empecé a trabajar en un notebook para el filtrado de los hits, logré filtrar los raw hits y los selected pulses del mismo evento, sin embargo he llegado al punto que no sé decidir cual es el criterio para seleccionar los "mejores hits".
