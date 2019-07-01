@@ -90,9 +90,9 @@ Empecé a trabajar en un notebook para el filtrado de los hits, logré filtrar l
 
 <B>1 Jul</B>
 
-Al parecer estime mal el tiempo de generación del primer dataframe con la data, relativo al punto 3.1 de las instrucciones dadas por mi director de TFM.
+Revisando como va la generación del dataframe, al parecer estime mal el tiempo de generación del primer dataframe con la data, relativo al punto 3.1 de las instrucciones dadas por mi director de TFM.
 
-Analizando, solo estime con archivos pequeños de 5 MB y no los "grandes" de más de 40 MB y hasta 90 MB, por lo que el tiempo para la generación de este primer dataframe puede que tarde hasta 2 días.
+Analizando, solo estime con archivos pequeños de 5 MB y no los "grandes" de más de 40 MB y hasta 90 MB, por lo que el tiempo para la generación de este primer dataframe puede que tarde hasta 3 días con un solo equipo PC, por lo que puse a trabajar 2 equipos para tratar de que solo sean 2 días y al final uniré los 2 dataframes para que quede solo 1. (Solo espero que no se corte la energía eléctrica :/ ).
 
 Mientras seguiré trabajando en obtener los hits relevantes a partir de los raw y los selected pulses, como mencioné antes, ya tengo un algoritmo que me permite obtenerlos. Me falta la definición del criterio para poder continuar y terminar de generar el algoritmo que recorra todos los archivos y genere el dataframe deseado.
 
