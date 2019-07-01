@@ -87,3 +87,13 @@ Este dia Domingo he verificado que no se haya colgado nada de la extracción de 
 Hoy pondré a trabajar el algoritmo para generar la data de aafit, bbfit y el muon. Después de algunos pruebas, estimo que esto tardará alrededor de 3 o 4 horas máximo y con un solo equipo PC.
 
 Empecé a trabajar en un notebook para el filtrado de los hits, logré filtrar los raw hits y los selected pulses del mismo evento, sin embargo he llegado al punto que no sé decidir cual es el criterio para seleccionar los "mejores hits".
+
+<B>1 Jul</B>
+
+Al parecer estime mal el tiempo de generación del primer dataframe con la data, relativo al punto 3.1 de las instrucciones dadas por mi director de TFM.
+
+Analizando, solo estime con archivos pequeños de 5 MB y no los "grandes" de más de 40 MB y hasta 90 MB, por lo que el tiempo para la generación de este primer dataframe puede que tarde hasta 2 días.
+
+Mientras seguiré trabajando en obtener los hits relevantes a partir de los raw y los selected pulses, como mencioné antes, ya tengo un algoritmo que me permite obtenerlos. Me falta la definición del criterio para poder continuar y terminar de generar el algoritmo que recorra todos los archivos y genere el dataframe deseado.
+
+Algo muy importante que me parece faltó mencionar respecto al punto 3.1 y el dataframe que generará, es que hay ciertos eventos (muy pocos) dentro de cada archivo en los cuales no existe como tal el renglón de aafit. Para estos casos hice algo similar al tratamiento de los nan de bbfit, asigne valores fuera de rango como -3pi y -1 y 1.
