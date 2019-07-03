@@ -99,3 +99,8 @@ Mientras seguiré trabajando en obtener los hits relevantes a partir de los raw 
 Algo muy importante que me parece faltó mencionar respecto al punto 3.1 y el dataframe que generará, es que hay ciertos eventos (muy pocos) dentro de cada archivo en los cuales no existe como tal el renglón de aafit. Para estos casos hice algo similar al tratamiento de los nan de bbfit, asigne valores fuera de rango como -3pi y -1 y 1.
 
 También es necesario mencionar que he dividido en diversos notebooks el trabajo, ya que me estaba costando mucho ir hacia arriba y abajo. Los más importantes son los llamados GENERA_CSVs y GENERA_DF_AAFIT_BBFIT, también he pasado por 2 iteraciones más del principal que se llama TFMvX.X, el actual es el TFMv0.3 el cual ya logré estructurar mejor y contiene comentarios según yo más acertados y precisos, por supuesto esto es después de haber comprendido mucho mejor los datos.
+
+<B>2 Jul</B>
+Hoy fué dia duro en el trabajo. Solo he logrado generar un algoritmo que selecciona de un primer evento del primer archivo los hits de acuerdo al criterio en donde si X',Y',Z',X,Y y Z son iguales que el selected pulse entonces se debe guardar ese raw hit.
+
+Falta generar un dataframe con la estructura correcta para sacarlo a un archivo.
