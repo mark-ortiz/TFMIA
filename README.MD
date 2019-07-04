@@ -108,7 +108,7 @@ Falta generar un dataframe con la estructura correcta para sacarlo a un archivo.
 
 <B>3 Jul</B>
 
-Mi PC de casa se reinició debido a las actualizaciones de Windows y se perdieron 3 días de trabajo de procesamientod de datos para obtener la data de aafit,bbfit, muon y otras.
+Mi PC de casa se reinició debido a las actualizaciones de Windows y se perdieron 3 días de trabajo de procesamiento de datos para obtener la data de aafit,bbfit, muon y otras.
 
 Intentaré generar un algoritmo que sólo trabaje con listas y genere un dataframe por cada archivo CSV, así si llega a pasar algo, no se perderá todo el trabajo realizado.
 
