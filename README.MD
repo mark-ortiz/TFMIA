@@ -113,3 +113,5 @@ Mi PC de casa se reinició debido a las actualizaciones de Windows y se perdiero
 Intentaré generar un algoritmo que sólo trabaje con listas y genere un dataframe por cada archivo CSV, así si llega a pasar algo, no se perderá todo el trabajo realizado.
 
 Hoy también intentaré obtener la data de los hits a partir de filtrar por Z' como indico Salva.
+
+Logré bajar el tiempo radicalmente para generar el dataframe respecto al punto 3.1 del correo de Salva del 17 de Junio.
