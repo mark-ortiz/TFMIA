@@ -105,3 +105,11 @@ También es necesario mencionar que he dividido en diversos notebooks el trabajo
 Hoy fué dia duro en el trabajo. Solo he logrado generar un algoritmo que selecciona de un primer evento del primer archivo los hits de acuerdo al criterio en donde si X',Y',Z',X,Y y Z son iguales que el selected pulse entonces se debe guardar ese raw hit.
 
 Falta generar un dataframe con la estructura correcta para sacarlo a un archivo.
+
+<B>3 Jul</B>
+
+Mi PC de casa se reinició debido a las actualizaciones de Windows y se perdieron 3 días de trabajo de procesamientod de datos para obtener la data de aafit,bbfit, muon y otras.
+
+Intentaré generar un algoritmo que sólo trabaje con listas y genere un dataframe por cada archivo CSV, así si llega a pasar algo, no se perderá todo el trabajo realizado.
+
+Hoy también intentaré obtener la data de los hits a partir de filtrar por Z' como indico Salva.
