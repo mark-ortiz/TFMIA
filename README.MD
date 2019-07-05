@@ -115,3 +115,18 @@ Intentaré generar un algoritmo que sólo trabaje con listas y genere un datafra
 Hoy también intentaré obtener la data de los hits a partir de filtrar por Z' como indico Salva.
 
 Logré bajar el tiempo radicalmente para generar el dataframe respecto al punto 3.1 del correo de Salva del 17 de Junio.
+
+<B>4 Jul</B>
+
+Logré terminar un algoritmo y programa para extraer la data relevante de los raw hits de acuerdo a lo indicado de cada uno de los archivos CSV (primera limpieza de los TXTs), es decir, seleccionar de cada evento los raw_hits que correspondan con linea y piso detector.
+
+Dejé corriendo el notebook en 2 PCs para dividir la carga, ya que calculo que tardaran ambas computadoras alrededor de 4 horas o menos cada una.
+
+Se generaran 2 dataframes que unire para tener la data ya completa junto con la metadata (runID, frameID, trigger_counter e interactionID).
+
+En este caso y a diferencia del punto 3.1 (donde obtuve la data del muón, aafit y bbfit), todavía falta hacer la transformación azimut y zenit, pero lo haré una vez que ya tenga el dataframe completo.
+
+Los archivos que he utilizado para trabajar son DATA_HITSv2_Laptop y DATA_HITS_v2. Ambos notebooks ya los coloqué en el repositorio, así como el inicial.
+
+Solo espero que no haga crash mi laptop por falta de memoria... mañana me enteraré. Plan B... si lo hace, correré de nuevo el programa en la PC del trabajo que tiene 32GB de RAM (mi laptop "solo" tiene 16GB).
+
