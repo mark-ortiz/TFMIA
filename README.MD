@@ -130,3 +130,12 @@ Los archivos que he utilizado para trabajar son DATA_HITSv2_Laptop y DATA_HITS_v
 
 Solo espero que no haga crash mi laptop por falta de memoria... mañana me enteraré. Plan B... si lo hace, correré de nuevo el programa en la PC del trabajo que tiene 32GB de RAM (mi laptop "solo" tiene 16GB).
 
+<B>5 Jul</B>
+
+Lamentablemente se cumplió lo que me esperaba... :(, mi laptop hizo crash por falta de memoria, no se apagó como tal, pero el kernel de python del notebook marcó error. Lo que haré ahora es por la tarde llevar mi PC de mi trabajo a casa, copiar los archivos para tener completos los CSV en ambos lugares, es decir, tanto en mi PC del trabajo como en la laptop de casa.
+
+Regresando del trabajo, ya he conectado la PC a mi red y he copiado los archivos para tener todo el dataset de CSVs en ambos equipos.
+
+Puse a trabajar nuevamente el algoritmo para extraer los hits, pero en el equipo de mi trabajo, el cual tiene 32GB de RAM, espero que este si aguante y no haga crash (no debería). Ahora a esperar a que termine la extracción.
+
+
