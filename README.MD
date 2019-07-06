@@ -138,4 +138,12 @@ Regresando del trabajo, ya he conectado la PC a mi red y he copiado los archivos
 
 Puse a trabajar nuevamente el algoritmo para extraer los hits, pero en el equipo de mi trabajo, el cual tiene 32GB de RAM, espero que este si aguante y no haga crash (no debería). Ahora a esperar a que termine la extracción.
 
+<B>6 Jul</B>
 
+Terminó exitosamente la extracción de la data de TODOS los archivos CSV (2542). Obtuve un dataframe de 63,520,301 filas y de 7.4GB de tamaño.
+
+Todavía falta hacer la transformación a azimut y zenit, pero espero que sea mucho más fácil, aunque seguramente también tardará considerablmente, hoy trabajaré en el algoritmo y dejaré trabajando el equipo.
+
+Si logro terminar hoy, mañana ya veré o preguntaré acerca de la correlación de ambos archivos que obtuve, el relativo al punto 3.1 y el relativo al 3.2.
+
+Algo que olvidaba es el tema de la selección de hits usando el "cutoff"... no sé si esto seá facil o inclusive necesario, pero lo platicaré con Salva vía correo una vez que tenga la data y le pueda mandar un ejemplo de lo que obtuve.
