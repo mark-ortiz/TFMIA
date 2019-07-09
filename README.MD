@@ -148,18 +148,24 @@ Si logro terminar hoy, mañana ya veré o preguntaré acerca de la correlación 
 
 Algo que olvidaba es el tema de la selección de hits usando el "cutoff"... no sé si esto seá facil o inclusive necesario, pero lo platicaré con Salva vía correo una vez que tenga la data y le pueda mandar un ejemplo de lo que obtuve.
 
-<B>7 Jul</B>
-
-Generé un nuevo notebook con un algoritmo para calcular azimut y zenit y agregar las columnas correspondientes al dataframe a partir del que ya tengo de los hits. 
+Generé el nuevo notebook con un algoritmo para calcular azimut y zenit y agregar las columnas correspondientes al dataframe a partir del que ya tengo de los hits. 
 
 Dejé corriendo el notebook con el algoritmo que generé para agregar las columnas azimut y zenit al dataframe de los hits, sin embargo hizo crash debido a falta de memoria, aunque esto pudo haberse debido no al dataframe en sí o a la generación de las listas para después agregarlas al dataframe, sino más bien a que por tratar de monitorear como iba avanzando en los renglones, deje imprimiendo la variable del bucle principal y que son mas de 60M de renglones. 
 
-<B>8 Jul</B>
+<B>7 Jul</B>
 
-Hoy deje corriendo el algoritmo que generé y pude agregar al dataframe de los hits las columnas azimut y zenit, el archivo resultante es de aprox. 11GB.
+Volví a deja corriendo el algoritmo que generé y pude agregar al dataframe de los hits las columnas azimut y zenit, el archivo resultante es de aprox. 11GB.
 
-Lo que hice de diferente es crear un monitoreo de avance de los renglones más "suave" y que no consume tanta memoria, ya que solo imprimía el avance cada que pasaba 1 millón de filas. Pude comprobar que esto fue lo que causó el crash de ayer.
+Lo que hice de diferente es crear un monitoreo de avance de los renglones más "suave" y que no consume tanta memoria, ya que solo imprimía el avance cada que pasaba 1 millón de filas. Pude comprobar que esto fue lo que causó el crash de ayer. 
+
+Tardó aproximadamente 8 horas en calcular los valores de azimut y zenit y en insertar las filas para finalmente escribirlas a un archivo.
 
 Debo mandar esta información a Salva para que le eche un vistazo y me diga que pasa con el tema de los "cutoff" o si seguimos así adelante.
 
 Algo muy interesante que me di cuenta es que Z de los hits en todos los eventos es -0.707106. No sé si esto afecte algo posteriormente para el modelado, pero el azimut de los hits siempre sale igual 2.356193.
+
+<B>8 Jul</B>
+
+Comencé un nuevo notebook llamado MODELADO, en este comencé a analizar los 2 dataframe con que ya cuento, el de los hits y el de la data de aafit,bbfit y el muon. Ambos tienen como metadata el runID, frameID y trigger_counter, es decir se pueden relacionar a partir de esta metadata.
+
+Ahora hay que ver que algoritmo se aplicará y si se debe ver lo del cutoff o no.
