@@ -169,3 +169,19 @@ Algo muy interesante que me di cuenta es que Z de los hits en todos los eventos 
 Comencé un nuevo notebook llamado MODELADO, en este comencé a analizar los 2 dataframe con que ya cuento, el de los hits y el de la data de aafit,bbfit y el muon. Ambos tienen como metadata el runID, frameID y trigger_counter, es decir se pueden relacionar a partir de esta metadata.
 
 Ahora hay que ver que algoritmo se aplicará y si se debe ver lo del cutoff o no.
+
+<B>9 Jul</B>
+
+Estuve trabajando en modificar el programa para extraer el dato del tiempo del selected pulse y relacionarlo a aquellos hits que coincidieran en linea y piso detector.
+
+Me costo bastante trabajo, pero después de estar probando varias ideas, finalmente terminé modificando una de las funciones que utilizo y con ello pude lograr obtener la columna.
+
+Para lo anterior, procedí a crear otro notebook al que nombré AGREGA_COL_TIEMPO_SELP, el cual utilicé para ajustar la función mencionada y hacer algunas pruebas iniciales.
+
+Dejé corriendo el proceso ya que tarda varias horas en generar nuevamente la lista de listas para después guardarlo como dataframe.
+
+<B>10 Jul</B>
+
+Terminó exitosamente la generación de la data ya como se requiere y generé el dataframe ya con la columna que nos hacía falta, pero sin tener calculado el azimut y zenit.
+
+Dentro del mismo notebook AGREGA_COL_TIEMPO_SELP, conseguí "copiar" y "pegar" la columna de tiempo del selected pulse al otro dataframe que ya tenía guardado previamente y el cual ya contenía las mismas líneas incluyendo el calculo de azimut y zenit. Si se desea ver el desarrollo que seguí se puede consultar en GITHUB.
