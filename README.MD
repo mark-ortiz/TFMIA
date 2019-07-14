@@ -185,3 +185,11 @@ Dejé corriendo el proceso ya que tarda varias horas en generar nuevamente la li
 Terminó exitosamente la generación de la data ya como se requiere y generé el dataframe ya con la columna que nos hacía falta, pero sin tener calculado el azimut y zenit.
 
 Dentro del mismo notebook AGREGA_COL_TIEMPO_SELP, conseguí "copiar" y "pegar" la columna de tiempo del selected pulse al otro dataframe que ya tenía guardado previamente y el cual ya contenía las mismas líneas incluyendo el calculo de azimut y zenit. Si se desea ver el desarrollo que seguí se puede consultar en GITHUB.
+
+<B>13 Jul</B>
+
+El trabajo ha estado complicado y no avancé en 2 días (además de que no me sentía muy bien de la garganta y decidí dormir un poco más para reponer fuerza), sólo estuve pensando en la estructura del trabajo escrito por las noches pero sin redactar nada todavía.
+
+Este día y para no perder el ritmo con la programación que ya traía, generé un algoritmo para "copiar y pegar" las columnas del archivo/dataframe llamdo aafit y que contiene la data de aafit, bbfit y el muón, hacia el dataframe de los hits, la idea es tener todo en un solo archivo/dataframe.
+
+Mañana comenzaré a redactar el trabajo escrito.
