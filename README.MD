@@ -192,4 +192,6 @@ El trabajo ha estado complicado y no avancé en 2 días (además de que no me se
 
 Este día y para no perder el ritmo con la programación que ya traía, generé un algoritmo para "copiar y pegar" las columnas del archivo/dataframe llamdo aafit y que contiene la data de aafit, bbfit y el muón, hacia el dataframe de los hits, la idea es tener todo en un solo archivo/dataframe.
 
+El archivo donde realicé el "copiado y pegado" de columnas es el mismo de MODELADO (aunque tal vez lo cambie a otro, ya que sigue siendo preprocesamiento de datos).
+
 Mañana comenzaré a redactar el trabajo escrito.
