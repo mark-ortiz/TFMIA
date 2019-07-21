@@ -195,3 +195,35 @@ Este día y para no perder el ritmo con la programación que ya traía, generé 
 El archivo donde realicé el "copiado y pegado" de columnas es el mismo de MODELADO (aunque tal vez lo cambie a otro, ya que sigue siendo preprocesamiento de datos).
 
 Mañana comenzaré a redactar el trabajo escrito.
+
+<B>17 Jul</B>
+
+Estuve trabajando en el índice del trabajo escrito, creo que logré producir algo mas coherente y he ordenado un poco más mis ideas. Lo he enviado a Salva para su revisión.
+
+Sigo esperando a que termine el proceso de "pegar" los dos archivos para tener el dataset completo.
+
+<B>19 Jul</B>
+
+Leí los comentarios que me hizo Salva, y procederé a implementarlos en el escrito. Si que faltó la sección de resultados por aparte.
+
+Sigo esperando a que termine el "pegado" de los dos dataframes. Incluso dudo si terminará.
+
+Mientras seguiré investigando acerca de aplicar deep learning a problemas de regresión, ya que no he podido encontrar casi nada, todo el mundo está queriendo aplicar Deep Learning a la parte de imágenes.
+
+<B>20 Jul</B>
+
+Por fin encontré algo que creo que me puede servir para el tema, lo he encontrado en la web de tensorflow, y es relativo a usar keras con tensorflow para un modelado de regresión, parece muy prometedor para el tipo de problema que debo resolver. Lo implementaré en mi PC para entenderlo mejor.
+
+https://www.tensorflow.org/tutorials/keras/basic_regression
+
+<B>21 Jul</B>
+
+Por fin termino el proceso de "pegar" los dos archivos (que pase a dataframe en el notebook con pandas).
+
+Tomó 1 semana entera en el proceso, desde el  13 de Jul. hasta el 21 de Jul. Por lo anterior, en teoría ahora sí ya podría empezar solo el trabajo de modelado.
+
+El archivo resultante es de poco más de 19GB, pero ya tengo en un solo archivo TODA la data, es decir el dataset completo y limpio, listo para ser explotado.
+
+Con respecto al ejemplo encontrado, después de haberlo ejecutado y comprendido, parece que aplica perfectamente para lo que debo hacer, claro que requerirá algunas modificaciones y demás pero al menos aplica deep learning a un problema de regresión y eso es excelente.
+
+También recibí correo de Salva con algunas indicaciones que comenzaré a seguir.
