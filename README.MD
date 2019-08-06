@@ -248,7 +248,7 @@ Comencé a modelar utilizando XGBOOST, después de averiguar como instalar la li
 
 He terminado el modelado con XGBOOST con MultiOutput y al parecer me ha funcionado bien, pienso subir los archivos posteriormente.
 
-<B>5 Jul</B>
+<B>5 Ago</B>
 
 He subido 4 archivos:
 1. Modelado Iinical Corto
