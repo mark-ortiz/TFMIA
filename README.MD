@@ -227,3 +227,33 @@ El archivo resultante es de poco más de 19GB, pero ya tengo en un solo archivo 
 Con respecto al ejemplo encontrado, después de haberlo ejecutado y comprendido, parece que aplica perfectamente para lo que debo hacer, claro que requerirá algunas modificaciones y demás pero al menos aplica deep learning a un problema de regresión y eso es excelente.
 
 También recibí correo de Salva con algunas indicaciones que comenzaré a seguir.
+
+<B>22 Jul</B>
+
+Estuve realizando unas pruebas iniciales con Keras para Deep Learning y aplicar lo que encontré.
+
+<B>23 Jul</B>
+
+Comencé con un modelado inicial para empezar a ver como iba a organizarme para esta etapa y en este comencé probando el algoritmo de regresión lineal múltiple.
+
+Me di cuenta que como tengo dos variables de salida, puedo hacerlo una por una o intentar algo que encontré que se llama MultiOutputRegressor
+
+También comencé a redactar la memoria del TFM.
+
+<B>3 Ago</B>
+
+He terminado el modelado con XGBOOST con MultiOutput y al parecer me ha funcionado bien, pienso subir los archivos posteriormente.
+
+<B>5 Jul</B>
+
+He subido 4 archivos:
+1. Modelado Iinical Corto
+2. Modelado Random Forest Multi Output
+3. Modelado XGBOOST Multi Output
+4. Modelado DL usando KERAS (está a medio camino, pero creo que va bien)
+
+Estuve trabajando en estos archivos de modelado las últimas semanas, es decir del 23 de Julio al presente 5 de Agosto, están casi terminados, falta por supuesto el más importante que es el de KERAS, sin embargo de forma preliminar puedo decir que hasta el momento el modelado con el  algoritmo XGBOOST es el que mejores resultados ha generado.
+
+Sigo trabajando en la implementación de una red neuronal para regresión con KERAS y he logrado algunos progresos, pero la etapa de investigación y pruebas me llevó un buen rato (alrededor de 1 semana leyendo y probando cosas).
+
+Por la comparación entre metricas (MAE,MSE,RMSE,MAPE,MAXE), puedo ver que el algoritmo a vencer es XGBOOST, por lo que tendré que ver cómo diseño las capas de una red neuronal con Keras que mejoren las metricas obtenidas con el algoritmo mencionado.
