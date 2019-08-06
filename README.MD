@@ -256,6 +256,8 @@ He subido 4 archivos:
 3. Modelado XGBOOST Multi Output
 4. Modelado DL usando KERAS (está a medio camino, pero creo que va bien)
 
+Algo super importante de comentar es que tuve que hacer sub-sampling, ya que trabajar en mi PC aun y cuando tiene 32GB en RAM y una tarjeta que me ayuda muchisimo para el Deep Learning (RTX2070 de 8GB), si trabajo con todo el dataset de 63Millones de instancias tarda años en hacer cualquier cosa. Entonces investigando en Internet como tratar con este tipo de Datasets, encontré la técnica del subsampling, que si se hace bien y se tiene una buena representación de las instancias y sus valores, si que se puede aplicar y ayuda muchísimo. Dependiendo del tiempo disponible una vez que termine de programar los modelos, tal vez intente hacer una aproximación con un sampling del 10 o 20% del Dataset, pero no lo sé todavía.
+
 Estuve trabajando en estos archivos de modelado las últimas semanas, es decir del 23 de Julio al presente 5 de Agosto, están casi terminados, falta por supuesto el más importante que es el de KERAS, sin embargo de forma preliminar puedo decir que hasta el momento el modelado con el  algoritmo XGBOOST es el que mejores resultados ha generado.
 
 Sigo trabajando en la implementación de una red neuronal para regresión con KERAS y he logrado algunos progresos, pero la etapa de investigación y pruebas me llevó un buen rato (alrededor de 1 semana leyendo y probando cosas).
