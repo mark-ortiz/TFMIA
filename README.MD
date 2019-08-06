@@ -240,6 +240,10 @@ Me di cuenta que como tengo dos variables de salida, puedo hacerlo una por una o
 
 También comencé a redactar la memoria del TFM.
 
+<B>1 Ago</B>
+
+Comencé a modelar utilizando XGBOOST, después de averiguar como instalar la librería de acuerdo a la documentación encontrada en su sitio web.
+
 <B>3 Ago</B>
 
 He terminado el modelado con XGBOOST con MultiOutput y al parecer me ha funcionado bien, pienso subir los archivos posteriormente.
