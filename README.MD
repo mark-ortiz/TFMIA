@@ -265,6 +265,7 @@ Sigo trabajando en la implementación de una red neuronal para regresión con KE
 Por la comparación entre metricas (MAE,MSE,RMSE,MAPE,MAXE), puedo ver que el algoritmo a vencer es XGBOOST, por lo que tendré que ver cómo diseño las capas de una red neuronal con Keras que mejoren las metricas obtenidas con el algoritmo mencionado.
 
 <B>3 Sept 2019</B>
+
 El día de hoy terminé la memoria técnica. Estuve trabajando casi todo el mes de Agosto en la elaboración de la misma, aunque también invertía algo de tiempo en el modelado, sobre todo la parte de selección de "features".
 
 También elaboré los documentos que solicitan para la presentación del TFM.
