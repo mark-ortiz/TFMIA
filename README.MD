@@ -1,5 +1,7 @@
 # TFM - Máster en Inteligencia Artificial
 
+This repo was created to upload the Python programs (Jupyter Notebooks) related to my Masters in Artificial Intelligence.
+
 Este repositorio lo he creado para llevar el seguimiento de lo realizado con respecto a las tareas que se requieren llevar a cabo para lograr el objetivo del TFM. Fué creado el día 7/Jun/2019.
 
 El título de mi TFM es:
